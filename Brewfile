@@ -29,7 +29,7 @@ brew "rmtrash"
 brew "switchaudio-osx"
 brew "tmux"
 brew "tree"
-brew "vim"
+# brew "vim"
 
 ###########################
 ######## Brew Casks #######
@@ -40,7 +40,7 @@ cask "figma"
 cask "qlmarkdown" # quick look tweaks for md file
 cask "skim" # Lightweight PDF Reader
 cask "slack"
-cask "soundflower"
+# cask "soundflower"
 cask "notion"
 cask "pdf-expert"
 cask "spotify"
@@ -53,7 +53,7 @@ cask "zoomus"
 cask "font-source-code-pro"
 
 ####### Development #######
-cask "docker"
+# cask "docker"
 cask "iterm2"
 cask "miniconda"
 # conda init "$(basename "${SHELL}")"
@@ -90,12 +90,12 @@ mas "Notability", id: 736189492
 mas "MindNode", id: 1289197285
 mas "Pocket", id: 568494494
 mas "Things", id: 904280696
-mas "Trello", id: 1278508951
+# mas "Trello", id: 1278508951
 
 ####### Development #######
 mas "Expressions", id: 913158085
 mas "LanScan", id: 472226235
-mas "Xcode", id: 497799835
+# mas "Xcode", id: 497799835
 mas "Playgrounds", id: 1496833156
 
 ######## Lifestyle ########
@@ -125,7 +125,6 @@ mas "腾讯视频", id: 1231336508
 mas "LyricsX", id: 1254743014
 
 ######## Utilities ########
-mas "Browser Care", id: 531173832
 
 mas "Capo", id: 696977615
 mas "GarageBand", id: 682658836
@@ -145,11 +144,7 @@ mas "iTranslate", id: 884952790
 mas "ToothFairy", id: 1191449274
 mas "RunCat", id: 1429033973
 
-mas "Sleep Alarm Clock", id: 1091149644
-
 mas "Marked 2", id: 890031187
-
-mas "Magnet", id: 441258766
 
 mas "Noizio", id: 928871589
 
