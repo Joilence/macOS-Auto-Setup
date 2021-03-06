@@ -8,6 +8,21 @@ Auto setup environment and install apps for a clean-installed macOS.
 ./genesis.sh
 ```
 
+## Manually Install / Recover
+
+Better to manually install:
+- Soundsource
+- Soundflower / Blackhole
+- Little Snitch
+- Apps installed by SetApp
+- Reeder (from MAS with another AppleID)
+
+Syncing Service:
+- Brave Browser Sync
+- Dash Sync in Dropbox
+
+- Input Source Switch Shortcut: Ctrl + Space
+
 ## Process
 
 - Install essentials like XCode Commandline Tools, Homebrew, etc.
