@@ -16,7 +16,7 @@ brew "go"
 brew "mysql"
 brew "ninja"
 brew "wget"
-# brew "n" or "nvm"
+brew "nvm" # `nvm` more active than `n`
 
 ######## Utilities ########
 brew "aria2"
@@ -35,6 +35,7 @@ brew "vim"
 ######## Brew Casks #######
 ###########################
 cask "bob"
+cask "deepl"
 cask "discord"
 cask "figma"
 cask "qlmarkdown" # quick look tweaks for md file
@@ -47,6 +48,7 @@ cask "spotify"
 cask "115browser"
 cask "google-chrome"
 cask "zoomus"
+cask "brave-browser"
 
 ########## Fonts ##########
 # cask "font-hack-nerd-font"
@@ -115,7 +117,7 @@ mas "WeChat", id: 836500024
 mas "WhatsApp", id: 1147396723
 mas "Messenger", id: 1480068668
 mas "Maipo", id: 789066512
-mas "Reeder", id: 1449412482
+# mas "Reeder", id: 1449412482 # need to be installed with German Apple ID
 
 ###### Entertainment ######
 mas "NeteaseMusic", id: 944848654
