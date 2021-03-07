@@ -8,20 +8,14 @@ Auto setup environment and install apps for a clean-installed macOS.
 ./genesis.sh
 ```
 
-## Manually Install / Recover
+## Manually Install
 
-Better to manually install:
-- Soundsource
-- Soundflower / Blackhole
-- Little Snitch
-- Apps installed by SetApp
+- Soundsource (kernel extension required)
+- Soundflower / Blackhole (need password)
+- Little Snitch (kernel extension required)
+- Apps installed by SetApp (non-script-able)
 - Reeder (from MAS with another AppleID)
-
-Syncing Service:
-- Brave Browser Sync
-- Dash Sync in Dropbox
-
-- Input Source Switch Shortcut: Ctrl + Space
+- [Eagle](https://eagle.cool) (not available in homebrew or MAS)
 
 ## Process
 
@@ -39,6 +33,8 @@ Syncing Service:
   - [Change macOS user preferences via command line | pawelgrzybek.com](https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/)
   - [dotfiles/.macos at master · mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/.macos)
   - [dotfiles/setup-macos.sh at master · pawelgrzybek/dotfiles](https://github.com/pawelgrzybek/dotfiles/blob/master/setup-macos.sh)
+  - Input Source Switch Shortcut: Ctrl + Space
+  - Key modification
 - [ ] Set git and github according to [macos-setup/setup.sh at master · Plysepter/macos-setup](https://github.com/Plysepter/macos-setup/blob/be7afda5edda9946ef1eca6b725eea7496d23fbf/setup.sh#L145)
 - [ ] Consider [Pro Tip: Significantly Improve Bluetooth Audio Quality in Mac OS : apple](https://www.reddit.com/r/apple/comments/5rfdj6/pro_tip_significantly_improve_bluetooth_audio/)
 - [ ] Consider Red Hat Ansible and [jeromegamez/ansible-macos-playbook: macOs setup and configuration via Ansible.](https://github.com/jeromegamez/ansible-macos-playbook)
