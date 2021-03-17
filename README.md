@@ -16,6 +16,7 @@ Auto setup environment and install apps for a clean-installed macOS.
 - Apps installed by SetApp (non-script-able)
 - Reeder (from MAS with another AppleID)
 - [Eagle](https://eagle.cool) (not available in homebrew or MAS)
+- Xcode (takes too long, approx. 3hrs)
 
 ## Process
 
