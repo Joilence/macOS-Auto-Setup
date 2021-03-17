@@ -41,7 +41,6 @@ cask "figma"
 cask "qlmarkdown" # quick look tweaks for md file
 cask "skim" # Lightweight PDF Reader
 cask "slack"
-# cask "soundflower"
 cask "notion"
 cask "pdf-expert"
 cask "spotify"
@@ -51,7 +50,11 @@ cask "zoomus"
 cask "brave-browser"
 
 ########## Fonts ##########
-# cask "font-hack-nerd-font"
+cask "font-hack-nerd-font" # for `lsd` colorful icon ls
+# Set nerd font for iTerm 
+# [Icons render as  on MacOS · Issue #199 · Peltoche/lsd](https://github.com/Peltoche/lsd/issues/199#issuecomment-494218334)
+# Set nerd font for VSCode
+# [VSCode integrated terminal versus nerdfont-complete · Issue #672 · Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k/issues/672)
 cask "font-source-code-pro"
 
 ####### Development #######
