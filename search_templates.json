@@ -1,0 +1,16 @@
+{
+    "Amazon CN": "https://www.amazon.cn/s?k=*",
+    "Amazon DE": "https://www.amazon.de/s?k=*",
+    "Amazon JP": "https://www.amazon.jp/s/field-keywords=*",
+    "Amazon US": "https://www.amazon.com/s/field-keywords=*",
+    "App Search": "https://cse.google.com/cse?cx=cd9ff986441568f0c&q=*",
+    "Bilibili": "https://search.bilibili.com/all?keyword=*",
+    "Douban": "https://www.douban.com/search?q=*",
+    "Idealo": "https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=*",
+    "JD": "https://search.jd.com/Search?keyword=*&enc=utf-8",
+    "MyDealz": "https://www.mydealz.de/search?q=*",
+    "Sci-Hub": "https://scihub.wikicn.top/*",
+    "StartPage": "https://www.startpage.com/do/dsearch?query=*",
+    "Taobao": "https://s.taobao.com/search?q=*",
+    "Zhihu": "https://www.zhihu.com/search?type=content&q=*",
+}
