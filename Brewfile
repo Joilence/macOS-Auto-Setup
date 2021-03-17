@@ -97,7 +97,7 @@ mas "Things", id: 904280696
 ####### Development #######
 mas "Expressions", id: 913158085
 mas "LanScan", id: 472226235
-# mas "Xcode", id: 497799835
+# mas "Xcode", id: 497799835 # takes too long
 mas "Playgrounds", id: 1496833156
 
 ######## Lifestyle ########
