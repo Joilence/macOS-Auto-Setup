@@ -5,6 +5,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "homebrew/cask-drivers"
 
 ###########################
 ###### Brew Packages ######
@@ -16,7 +17,7 @@ brew "go"
 brew "mysql"
 brew "ninja"
 brew "wget"
-brew "nvm" # `nvm` more active than `n`
+brew "nvm" # more active than `n`
 
 ######## Utilities ########
 brew "aria2"
@@ -25,29 +26,43 @@ brew "autojump"
 brew "htop" # system status in terminal
 brew "mackup"
 brew "mas"
-brew "rmtrash"
+# brew "rmtrash" # replaced by `trash-cli`
 brew "switchaudio-osx"
 brew "tmux"
 brew "tree"
-# brew "vim"
+# brew "vim" # don't use vim any more
+brew "trash-cli" # avoid using `rm -rf`, need configure in .zshrc
+brew "smartmontools" # monitor total read/write of SSD
+brew "lsd" # improved `ls` command with icons
+brew "duti" # set default app associated with filetypes
 
 ###########################
 ######## Brew Casks #######
 ###########################
-cask "bob"
-cask "deepl"
-cask "discord"
-cask "figma"
-cask "qlmarkdown" # quick look tweaks for md file
+
+# cask "qlmarkdown" # quick look tweaks for md file, not trusted any more
 cask "skim" # Lightweight PDF Reader
-cask "slack"
-cask "notion"
 cask "pdf-expert"
 cask "spotify"
-cask "115browser"
-cask "google-chrome"
-cask "zoomus"
-cask "brave-browser"
+cask "hyperswitch"
+cask "icons8"
+cask "imazing"
+cask "mactracker"
+cask "mathpix-snipping-tool"
+cask "mendeley"
+cask "motrix"
+cask "nightowl"
+cask "soulver2"
+cask "steam"
+cask "typora"
+# cask "setapp" # cannot install directly
+
+##### Social Networks #####
+cask "slack"
+cask "signal"
+cask "telegram"
+cask "skype"
+cask "discord"
 
 ########## Fonts ##########
 cask "font-hack-nerd-font" # for `lsd` colorful icon ls
@@ -56,14 +71,71 @@ cask "font-hack-nerd-font" # for `lsd` colorful icon ls
 # Set nerd font for VSCode
 # [VSCode integrated terminal versus nerdfont-complete · Issue #672 · Powerlevel9k/powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k/issues/672)
 cask "font-source-code-pro"
+cask "font-jetbrains-mono"
 
 ####### Development #######
-# cask "docker"
-cask "iterm2"
-cask "miniconda"
+# cask "docker" # not yet stable for M1
+cask "iterm2" # terminal replacement
+cask "miniconda" # python env management
 # conda init "$(basename "${SHELL}")"
 cask "tower" # git client
 cask "visual-studio-code" # code editor
+cask "kaleidoscope" # diff tool
+cask "sublime-text" # faster editor
+
+######## Utilities ########
+cask "1password"
+cask "carbon-copy-cloner"
+cask "coconutbattery"
+cask "daisydisk"
+cask "detexify"
+cask "displaylink"
+# Audio
+cask "airfoil"
+cask "loopback"
+cask "soundsource"
+cask "blackhole-16ch" # virtual audio drive replacement for soundflower
+# Network
+cask "network-radar"
+cask "surge"
+cask "pingplotter"
+cask "tunnelbear"
+# Cloud Drive
+cask "dropbox"
+cask "weiyun"
+# Photo & Images
+cask "fastrawviewer"
+cask "optimage"
+cask "ppduck"
+cask "retrobatch"
+# Video
+cask "iina"
+cask "webex"
+cask "zoomus"
+cask "obs"
+cask "reflector" # allow other devices to mirror videos via AirPlay
+# Language
+cask "anki"
+cask "eudic" # dict app with .mdx
+cask "grammarly"
+cask "bob"
+cask "deepl"
+# Broswers
+cask "115browser"
+cask "google-chrome"
+cask "brave-browser"
+
+####### Productivity ######
+cask "airtable"
+cask "fantastical"
+cask "obsidian"
+cask "omnigraffle"
+cask "notion"
+cask "figma"
+# Launcher & Shortcuts
+cask "launchbar"
+cask "raycast"
+cask "keyboard-maestro"
 
 ###########################
 ######### MAS Apps ########
@@ -149,7 +221,7 @@ mas "iTranslate", id: 884952790
 mas "ToothFairy", id: 1191449274
 mas "RunCat", id: 1429033973
 
-mas "Marked 2", id: 890031187
+# mas "Marked 2", id: 890031187 # install with setapp
 
 mas "Noizio", id: 928871589
 
